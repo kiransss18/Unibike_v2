@@ -107,6 +107,15 @@ const chart2 = new Chart(ctx2, {
     legend: {
       display: false
     },
+    tooltips: {
+      callbacks: {
+        label: (tooltipItem, data) => {
+          const label = data.labels[tooltipItem.index];
+          const count = fakdata[label];
+          return `${label}: ${count} pengguna`;
+        }
+      }
+    },
     plugins: {
       datalabels: {
         display: true,
@@ -191,6 +200,15 @@ const chart3 = new Chart(ctx3, {
     responsive: true,
     legend: {
       display: false
+    },
+    tooltips: {
+      callbacks: {
+        label: (tooltipItem, data) => {
+          const label = data.labels[tooltipItem.index];
+          const count = shelterdata[shelterlabels.find(shelter => shelter.name === label).id];
+          return `${label}: ${count} kali dipakai`;
+        }
+      }
     },
     plugins: {
       datalabels: {
