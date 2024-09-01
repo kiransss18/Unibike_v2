@@ -1,0 +1,74 @@
+/* custom button */
+
+.btn1 {
+    background-color: #0b1a51;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0.5cm;
+}
+
+/* custom bg */
+
+.bg1 {
+    background-color: #0b1a51;
+    color: white;
+}
+
+.bg2 {
+    background-color: #39b8f3;
+    color: white;
+}
+
+.bg3 {
+    background-color: #f59a11;
+    color: black;
+}
+
+.card1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.table-image {
+    height: 64px;
+    width: 64px;
+}
+
+.bike-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+}
+
+.text-border {
+    padding: 1%; 
+    border: groove;
+}
+
+.bg4{
+    background-color:rgb(160, 162, 161);
+    color: rgb(160, 162, 161)s ;
+}
+
+.marker-link {
+    color: #000000; 
+}
+  
+.marker-link.active {
+    color: #3ea5ff;
+}
+
+/* dashboard map */
+.fluid-map{
+    display: flex;
+    flex-direction: column;
+}
+
+#map {
+    width: 100%;
+    height: 60vh;
+    border: 1px solid black;
+}
