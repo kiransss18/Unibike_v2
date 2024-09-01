@@ -33,6 +33,8 @@
 <script src="dist/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
 <!-- ChartJS -->
 <script src="dist/plugins/chart.js/Chart.min.js"></script>
+<script
+    src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0/dist/chartjs-plugin-datalabels.min.js"></script>
 <script src="dist/js/dashchart.js"></script>
 <script src="dist/js/unibike.js"></script>
 <!-- AdminLTE App -->
