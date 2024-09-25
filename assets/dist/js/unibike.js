@@ -215,7 +215,7 @@ $('#mapModal').on('shown.bs.modal', function (event) {
   L.marker([lat, lng], {
   title:'lokasi sepeda',
   icon: L.icon({
-    iconUrl: 'https://i.imgur.com/GgVUXtd.png', 
+    iconUrl: 'images/sepeda_pin.png', 
     iconSize: [25, 40],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
@@ -310,7 +310,7 @@ markers.forEach(function(marker) {
   L.marker([marker.lat, marker.lng], {
     title: marker.title,
     icon: L.icon({
-      iconUrl: 'https://i.imgur.com/AROpeyt.png',
+      iconUrl: 'images/pin_shelter.png',
       iconSize: [35, 51],
       iconAnchor: [12, 41],
       popupAnchor: [1, -34],
@@ -327,7 +327,7 @@ markers.forEach(function(marker) {
   var markerObject = L.marker([marker.lat, marker.lng], {
     title: marker.title,
     icon: L.icon({
-      iconUrl: 'https://i.imgur.com/AROpeyt.png',
+      iconUrl: 'images/pin_shelter.png',
       iconSize: [35, 51],
       iconAnchor: [12, 41],
       popupAnchor: [1, -34],
@@ -353,7 +353,7 @@ document.querySelectorAll('.marker-link').forEach(function(link) {
     // Update the icon of the marker object
     if (markerObject) {
       var icon = L.icon({
-        iconUrl: 'https://i.imgur.com/jWlN2iF.png',
+        iconUrl: 'images/red_pin.png',
         iconSize: [35, 51],
         iconAnchor: [12, 41],
         popupAnchor: [1, -34],
@@ -365,7 +365,7 @@ document.querySelectorAll('.marker-link').forEach(function(link) {
       markerObjects.forEach(function(otherMarkerObject) {
         if (otherMarkerObject !== markerObject) {
           var originalIcon = L.icon({
-            iconUrl: 'https://i.imgur.com/AROpeyt.png',
+            iconUrl: 'images/pin_shelter.png',
             iconSize: [35, 51],
             iconAnchor: [12, 41],
             popupAnchor: [1, -34],
